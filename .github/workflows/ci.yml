@@ -2,9 +2,9 @@ name: CI
 
 on:
   push:
-    branches: [ "main", "feature", "ci-cd" ]
+    branches: [ "main" ]
   pull_request:
-    branches: [ "main", "feature", "ci-cd" ]
+    branches: [ "main" ]
 
 jobs:
   commitlint:
